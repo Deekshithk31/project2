@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html >
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?
+        family=IBM+Plex+Sans:ital,wght@0,100;0,400;1,100&family=Open+Sans&display=swap" rel="stylesheet">
+
+        <title>FROD BANK</title>
+    </head>
+    <body>
+        <div class="login-form">
+            <input type="radio" name="tab"class="tab" id="sign-up-tab">
+            <label for="sign-up-tab" class="tab-header">SIGN UP</label>
+            <input type="radio" name="tab"class="tab" id="sign-in-tab">
+            <label for="sign-in-tab" class="tab-header">SIGN IN</label>
+
+        
+            <form id="form1">
+                <div class="header">Sign up form</div>
+                <div class="form-input">
+                    <input type="text" class="input" id="new-username" placeholder="User Name" required/>
+                </div>
+                <div class="form-input">
+                    <input type="email" class="input" id="email" placeholder="Email Address" required/>
+                </div>
+                <div class="form-input">
+                    <input type="password" class="input" id="password" placeholder="Password" required/>
+                </div>
+                <input type="submit" id="sign-up" class="submit-button" value="SIGN UP">
+            </form>
+
+        
+            <form id="form2">
+                <div class="header">Welcome MyBank</div>
+                <div class="form-input">
+                    <input type="text" class="input" id="username" placeholder="User Name" required/>
+                </div>
+                <div class="form-input">
+                    <input type="password" class="input" id="password" placeholder="Password" required/>
+                </div>
+                <input type="checkbox"><span id="check">Keep me signed in</span>
+                <input type="submit" id="sign-in" class="submit-button" value="SIGN IN">
+            </form>
+        </div>
+        
+    </body>
+    </html>
